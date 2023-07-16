@@ -1,0 +1,92 @@
+ul {
+    padding-inline-start: 0;
+  }
+
+#gridContainer {
+  visibility: hidden;
+}
+
+.item {
+  opacity: 0;
+}
+
+#--undefined {
+
+display: none;
+
+}
+
+  li {
+    list-style: none !important;
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+
+  iframe {
+    padding: none;
+    border: none;
+  }
+
+  body {
+    font-family: arial;
+    margin: 0;
+  }
+
+  .spacer {
+    height: 0px;
+  }
+
+  * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+#gridOuter {
+    padding-top: 80px;
+    background: #493939;
+  }
+
+  .grid {
+    max-width: 2000px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .item {
+    word-wrap: break-word;
+    width: calc(24.75% - 22.5px);
+    margin-bottom: 30px;
+    float: left;
+    background: #ccc;
+    border: 5px solid #efefef;
+    position: relative;
+    overflow: hidden;
+border-radius: 10px;
+  }
+
+  .item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 0px;
+  }
+
+   .card-body {
+    padding: 30px;
+}
+
+  .card-body > *:not(img) {
+    margin-bottom: 10px; /* Adjust the spacing between fields */
+  }
+
+#Name--singleLineText
+
+{
+ 
+font-size: 50px!important;
+letter-spacing: px!important;
+color: #000000!important;
+text-align: ;
+font-weight: !important;
+line-height: 1!important;
+}
